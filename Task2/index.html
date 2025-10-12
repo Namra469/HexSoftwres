@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Transform your fitness journey at PowerFit Gym - Modern facilities, expert trainers, flexible membership plans. Join today and achieve your fitness goals!">
+    <meta name="keywords" content="gym, fitness, workout, training, health, membership, personal trainer">
+    <meta name="author" content="PowerFit Gym">
+    <title>PowerFit Gym - Transform Your Body & Mind</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-dumbbell"></i>
+                <span>PowerFit</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#facilities" class="nav-link">Facilities</a></li>
+                <li><a href="#classes" class="nav-link">Classes</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#trainers" class="nav-link">Trainers</a></li>
+                <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#faq" class="nav-link">FAQ</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-cta">Join Now</button>
+            <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content" data-aos="fade-up">
+            <h1>TRANSFORM YOUR<br><span class="highlight">BODY & MIND</span></h1>
+            <p>Join PowerFit and unlock your full potential with state-of-the-art facilities, expert trainers, and a community that motivates.</p>
+            <div class="hero-buttons">
+                <a href="#pricing" class="btn btn-primary">Start Free Trial</a>
+                <a href="#classes" class="btn btn-secondary">View Classes</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <section id="facilities" class="facilities">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>World-Class <span class="highlight">Facilities</span></h2>
+                <p>Everything you need to achieve your fitness goals</p>
+            </div>
+            <div class="facilities-grid">
+                <div class="facility-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon-box">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Strength Training</h3>
+                    <p>Premium free weights, barbells, and resistance machines for all fitness levels</p>
+                </div>
+                <div class="facility-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon-box">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <h3>Cardio Zone</h3>
+                    <p>Latest treadmills, ellipticals, bikes, and rowing machines with entertainment screens</p>
+                </div>
+                <div class="facility-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon-box">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Group Classes</h3>
+                    <p>Yoga, Zumba, Spin, HIIT, and more led by certified instructors</p>
+                </div>
+                <div class="facility-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="icon-box">
+                        <i class="fas fa-swimmer"></i>
+                    </div>
+                    <h3>Olympic Pool</h3>
+                    <p>25-meter heated pool with lanes for lap swimming and aqua aerobics</p>
+                </div>
+                <div class="facility-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="icon-box">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Spa & Sauna</h3>
+                    <p>Relax and recover in our luxury spa, steam room, and sauna facilities</p>
+                </div>
+                <div class="facility-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="icon-box">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Nutrition Bar</h3>
+                    <p>Healthy smoothies, protein shakes, and meal prep options</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="classes" class="classes">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our <span class="highlight">Classes</span></h2>
+                <p>Find your perfect workout schedule</p>
+            </div>
+            
+            <div class="class-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All Classes</button>
+                <button class="filter-btn" data-filter="strength">Strength</button>
+                <button class="filter-btn" data-filter="cardio">Cardio</button>
+                <button class="filter-btn" data-filter="mind-body">Mind & Body</button>
+                <button class="filter-btn" data-filter="dance">Dance</button>
+            </div>
+
+            <div class="classes-grid">
+                <div class="class-card" data-category="cardio" data-aos="zoom-in">
+                    <div class="class-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>HIIT Blast</h3>
+                    <p>High-intensity interval training for maximum calorie burn</p>
+                    <div class="class-info">
+                        <span><i class="fas fa-clock"></i> 45 min</span>
+                        <span><i class="fas fa-fire"></i> High</span>
+                    </div>
+                    <div class="class-schedule">
+                        <span>Mon, Wed, Fri - 6:00 AM</span>
+                    </div>
+                </div>
+                <div class="class-card" data-category="mind-body" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="class-icon">
+                        <i class="fas fa-om"></i>
+                    </div>
+                    <h3>Power Yoga</h3>
+                    <p>Build strength, flexibility and inner peace</p>
+                    <div class="class-info">
+                        <span><i class="fas fa-clock"></i> 60 min</span>
+                        <span><i class="fas fa-fire"></i> Medium</span>
+                    </div>
+                    <div class="class-schedule">
+                        <span>Tue, Thu, Sat - 7:00 AM</span>
+                    </div>
+                </div>
+                <div class="class-card" data-category="strength" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="class-icon">
+                        <i class="fas fa-weight-hanging"></i>
+                    </div>
+                    <h3>CrossFit</h3>
+                    <p>Functional fitness for athletes of all levels</p>
+                    <div class="class-info">
+                        <span><i class="fas fa-clock"></i> 60 min</span>
+                        <span><i class="fas fa-fire"></i> High</span>
+                    </div>
+                    <div class="class-schedule">
+                        <span>Mon, Wed, Fri - 5:00 PM</span>
+                    </div>
+                </div>
+                <div class="class-card" data-category="dance" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="class-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Zumba Dance</h3>
+                    <p>Latin-inspired dance fitness party</p>
+                    <div class="class-info">
+                        <span><i class="fas fa-clock"></i> 50 min</span>
+                        <span><i class="fas fa-fire"></i> Medium</span>
+                    </div>
+                    <div class="class-schedule">
+                        <span>Tue, Thu - 6:30 PM</span>
+                    </div>
+                </div>
+                <div class="class-card" data-category="cardio" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="class-icon">
+                        <i class="fas fa-biking"></i>
+                    </div>
+                    <h3>Spin Cycle</h3>
+                    <p>Indoor cycling with motivating music and coaching</p>
+                    <div class="class-info">
+                        <span><i class="fas fa-clock"></i> 45 min</span>
+                        <span><i class="fas fa-fire"></i> High</span>
+                    </div>
+                    <div class="class-schedule">
+                        <span>Mon, Wed, Fri - 7:00 PM</span>
+                    </div>
+                </div>
+                <div class="class-card" data-category="strength" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="class-icon">
+                        <i class="fas fa-fist-raised"></i>
+                    </div>
+                    <h3>Boxing Fitness</h3>
+                    <p>Learn boxing techniques while getting fit</p>
+                    <div class="class-info">
+                        <span><i class="fas fa-clock"></i> 50 min</span>
+                        <span><i class="fas fa-fire"></i> High</span>
+                    </div>
+                    <div class="class-schedule">
+                        <span>Tue, Thu, Sat - 5:30 PM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Membership <span class="highlight">Plans</span></h2>
+                <p>Choose the perfect plan for your fitness journey</p>
+            </div>
+            
+            <div class="billing-toggle" data-aos="fade-up">
+                <span class="toggle-label">Monthly</span>
+                <label class="switch">
+                    <input type="checkbox" id="billingToggle">
+                    <span class="slider"></span>
+                </label>
+                <span class="toggle-label">Annual <span class="save-badge">Save 20%</span></span>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="plan-header">
+                        <h3>Basic</h3>
+                        <p>Perfect for beginners</p>
+                    </div>
+                    <div class="plan-price">
+                        <span class="currency">$</span>
+                        <span class="amount" data-monthly="29" data-annual="279">29</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> Access to gym floor</li>
+                        <li><i class="fas fa-check"></i> Cardio & strength equipment</li>
+                        <li><i class="fas fa-check"></i> Locker room access</li>
+                        <li><i class="fas fa-check"></i> 2 group classes per week</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Personal training</li>
+                        <li class="disabled"><i class="fas fa-times"></i> Spa & sauna</li>
+                    </ul>
+                    <button class="btn btn-outline">Get Started</button>
+                </div>
+
+                <div class="pricing-card popular" data-aos="fade-up" data-aos-delay="200">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="plan-header">
+                        <h3>Premium</h3>
+                        <p>Best value for serious athletes</p>
+                    </div>
+                    <div class="plan-price">
+                        <span class="currency">$</span>
+                        <span class="amount" data-monthly="59" data-annual="567">59</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> All Basic features</li>
+                        <li><i class="fas fa-check"></i> Unlimited group classes</li>
+                        <li><i class="fas fa-check"></i> Pool & aqua classes</li>
+                        <li><i class="fas fa-check"></i> 2 PT sessions/month</li>
+                        <li><i class="fas fa-check"></i> Spa & sauna access</li>
+                        <li><i class="fas fa-check"></i> Free guest pass monthly</li>
+                    </ul>
+                    <button class="btn btn-primary">Get Started</button>
+                </div>
+
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="plan-header">
+                        <h3>Elite</h3>
+                        <p>Ultimate fitness experience</p>
+                    </div>
+                    <div class="plan-price">
+                        <span class="currency">$</span>
+                        <span class="amount" data-monthly="99" data-annual="950">99</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> All Premium features</li>
+                        <li><i class="fas fa-check"></i> 8 PT sessions/month</li>
+                        <li><i class="fas fa-check"></i> Nutrition consultation</li>
+                        <li><i class="fas fa-check"></i> Priority class booking</li>
+                        <li><i class="fas fa-check"></i> Unlimited guest passes</li>
+                        <li><i class="fas fa-check"></i> VIP lounge access</li>
+                    </ul>
+                    <button class="btn btn-outline">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="trainers" class="trainers">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Expert <span class="highlight">Trainers</span></h2>
+                <p>Meet our certified fitness professionals</p>
+            </div>
+            <div class="trainers-grid">
+                <div class="trainer-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="trainer-image">
+                        <img src="Pictures/trainer1.jpg" alt="Sarah Johnson - Head Trainer">
+                        <div class="trainer-overlay">
+                            <div class="social-links">
+                                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Sarah Johnson</h3>
+                        <p class="trainer-title">Head Trainer & Nutritionist</p>
+                        <p class="trainer-bio">10+ years experience in strength training and sports nutrition</p>
+                        <div class="trainer-specialties">
+                            <span>Strength</span>
+                            <span>Nutrition</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trainer-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="trainer-image">
+                        <img src="Pictures/trainer2.jpg" alt="Mike Chen - CrossFit Coach">
+                        <div class="trainer-overlay">
+                            <div class="social-links">
+                                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Mike Chen</h3>
+                        <p class="trainer-title">CrossFit & HIIT Specialist</p>
+                        <p class="trainer-bio">Former athlete with expertise in functional fitness and conditioning</p>
+                        <div class="trainer-specialties">
+                            <span>CrossFit</span>
+                            <span>HIIT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trainer-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="trainer-image">
+                        <img src="Pictures/Trainer3.jpg" alt="Emma Davis - Yoga Instructor">
+                        <div class="trainer-overlay">
+                            <div class="social-links">
+                                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>Emma Davis</h3>
+                        <p class="trainer-title">Yoga & Pilates Master</p>
+                        <p class="trainer-bio">Certified yoga instructor specializing in mindfulness and flexibility</p>
+                        <div class="trainer-specialties">
+                            <span>Yoga</span>
+                            <span>Pilates</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trainer-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="trainer-image">
+                        <img src="Pictures/trainer4.jpg" alt="James Rodriguez - Boxing Coach">
+                        <div class="trainer-overlay">
+                            <div class="social-links">
+                                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3>James Rodriguez</h3>
+                        <p class="trainer-title">Boxing & Combat Sports</p>
+                        <p class="trainer-bio">Former professional boxer with 15 years coaching experience</p>
+                        <div class="trainer-specialties">
+                            <span>Boxing</span>
+                            <span>Cardio</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Member <span class="highlight">Success Stories</span></h2>
+                <p>Real results from real people</p>
+            </div>
+            
+            <div class="testimonials-carousel" data-aos="fade-up">
+                <div class="testimonial-track">
+                    <div class="testimonial-card active">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"PowerFit completely transformed my life! I've lost 30 pounds and gained so much confidence. The trainers are incredibly supportive and the facilities are top-notch."</p>
+                        <div class="testimonial-author">
+                            <h4>Jessica Martinez</h4>
+                            <span>Member for 8 months</span>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Best gym I've ever joined! The variety of classes keeps me motivated, and the community here is amazing. The monthly challenges push me to be my best."</p>
+                        <div class="testimonial-author">
+                            <h4>David Thompson</h4>
+                            <span>Member for 1 year</span>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"The personal training sessions helped me achieve goals I never thought possible. Sarah is an incredible trainer who really understands individual needs."</p>
+                        <div class="testimonial-author">
+                            <h4>Amanda Lee</h4>
+                            <span>Member for 6 months</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev" aria-label="Previous testimonial">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="carousel-btn next" aria-label="Next testimonial">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                
+                <div class="carousel-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Our <span class="highlight">Gallery</span></h2>
+                <p>See what makes PowerFit special</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="Pictures/ourgym1.jpg" alt="Modern gym equipment">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="Pictures/ourgym2.jpg" alt="Group fitness class">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="Pictures/ourgym3.jpg" alt="Cardio zone">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="Pictures/ourgym4.jpg" alt="Personal training session">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="Pictures/ourgym5.jpg" alt="Weight training area">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="Pictures/ourgym6.jpg" alt="CrossFit training">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Gallery image">
+        <div class="lightbox-controls">
+            <button class="lightbox-btn prev" aria-label="Previous image">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="lightbox-btn next" aria-label="Next image">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Frequently Asked <span class="highlight">Questions</span></h2>
+                <p>Got questions? We've got answers</p>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="faq-question">
+                        <h3>What are your operating hours?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>PowerFit is open 24/7 for all members! Our staffed hours are Monday-Friday 5:00 AM - 11:00 PM, and weekends 6:00 AM - 10:00 PM. Group classes run from 6:00 AM - 9:00 PM daily.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="faq-question">
+                        <h3>Do I need to sign a long-term contract?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>No! We offer flexible month-to-month memberships with no long-term commitment. You can cancel anytime with 30 days notice. Annual plans are available for those who want to save 20%.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="faq-question">
+                        <h3>Can I try the gym before joining?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! We offer a complimentary 7-day trial pass for first-time visitors. This gives you full access to all facilities and group classes. Book your free trial today!</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="faq-question">
+                        <h3>Are personal trainers included in membership?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Personal training sessions are included with Premium (2/month) and Elite (8/month) memberships. Basic members can purchase PT sessions separately at $45 per session or packages starting at $180 for 5 sessions.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="faq-question">
+                        <h3>Do you have childcare services?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! Our KidsFit zone offers supervised childcare for children ages 6 months to 12 years. Available Monday-Friday 8:00 AM - 12:00 PM and 4:00 PM - 8:00 PM. First hour is free for members, $5/hour after.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="faq-question">
+                        <h3>What COVID-19 safety measures are in place?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Member safety is our priority. We maintain enhanced cleaning protocols, provide sanitizing stations throughout the facility, ensure proper ventilation, and follow all local health guidelines. Equipment is sanitized after each use.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Get In <span class="highlight">Touch</span></h2>
+                <p>Ready to start your fitness journey? Contact us today!</p>
+            </div>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Visit Us</h3>
+                            <p>123 Fitness Street, Downtown<br>New York, NY 10001</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Call Us</h3>
+                            <p>+1 (555) 123-4567<br>Mon-Fri: 5AM - 11PM</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email Us</h3>
+                            <p>info@powerfitgym.com<br>support@powerfitgym.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <form id="contact-form" class="contact-form" data-aos="fade-left">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone">
+                        <label for="phone">Phone Number (Optional)</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <select id="subject" name="subject" required>
+                            <option value="">Select a subject</option>
+                            <option value="membership">Membership Inquiry</option>
+                            <option value="trial">Free Trial</option>
+                            <option value="personal-training">Personal Training</option>
+                            <option value="classes">Class Information</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <label for="subject">Subject</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">
+                        <span class="btn-text">Send Message</span>
+                        <span class="btn-loading" style="display: none;">
+                            <i class="fas fa-spinner fa-spin"></i> Sending...
+                        </span>
+                    </button>
+                    
+                    <div id="form-message" class="form-message"></div>
+                </form>
+            </div>
+            
+            <div class="map-container" data-aos="fade-up">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9476519598093!2d-73.99185368459418!3d40.74117597932847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1635789012345!5m2!1sen!2sus" 
+                    width="100%" 
+                    height="400" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy"
+                    title="PowerFit Gym Location">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="fas fa-dumbbell"></i>
+                        <span>PowerFit</span>
+                    </div>
+                    <p>Transform your body and mind with state-of-the-art facilities and expert guidance.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#facilities">Facilities</a></li>
+                        <li><a href="#classes">Classes</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for fitness tips and special offers</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 PowerFit Gym. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="mobile-cta">
+        <a href="#pricing" class="mobile-cta-btn">
+            <i class="fas fa-rocket"></i> Join Now - Free Trial
+        </a>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
